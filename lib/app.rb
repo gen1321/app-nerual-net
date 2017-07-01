@@ -1,6 +1,5 @@
 require 'sinatra'
 require 'json'
-require 'pry-remote'
 require 'sinatra/cross_origin'
 require 'chunky_png'
 require_relative './nerual-net/net'

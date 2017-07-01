@@ -38,7 +38,7 @@ class App extends Component {
       prediction: '...'
     });
 
-    fetch('http://localhost:4567/predict', {
+    fetch('/predict', {
       method: 'POST',
       body: this.state.canvas.toDataURL('image/png')
     }).then(response => {
