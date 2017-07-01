@@ -1,0 +1,3 @@
+[submodule "lib/nerual-net"]
+	path = lib/nerual-net
+	url = https://github.com/gen1321/YetAntotherRubyNerualNetwork
